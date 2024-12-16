@@ -10,5 +10,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-  base: '/',  // Remove `/test/` unless it's absolutely required for your setup
+  base: '/test/',  // Remove `/test/` unless it's absolutely required for your setup
 });
